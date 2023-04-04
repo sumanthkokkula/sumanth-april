@@ -1,0 +1,43 @@
+:root { 
+  --birch: #323025;
+  --black: #000000;
+  --mine-shaft: #333333;
+  --napa: #b1a592;
+ 
+  --font-size-l: 24px;
+  --font-size-m: 20px;
+  --font-size-xl: 36px;
+ 
+  --font-family-inter: "Inter", Helvetica;
+}
+.inter-normal-napa-24px {
+  color: var(--napa);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.inter-normal-mine-shaft-24px {
+  color: var(--mine-shaft);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.inter-light-birch-20px {
+  color: var(--birch);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 300;
+}
+
+.inter-normal-mine-shaft-20px {
+  color: var(--mine-shaft);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
